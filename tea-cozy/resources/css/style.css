@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: auto;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background: black;
+  opacity: 0.9;
+  text-align: center;
+}
+h2, h4 {
+  padding: 10px 0;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  overflow: hidden;
+  width: 100%;
+  height: 69px;
+  background: black;
+  border-bottom: 1px solid seashell;
+}
+
+/* Navigation */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  text-decoration: underline;
+}
+.logo-img {
+  margin-right: auto;
+  margin-left: 10px;
+  height: 50px;
+}
+
+/* Main content container */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  top: 70px;
+  overflow: auto;
+  position: absolute;
+}
+
+/* Mission statement */
+
+.mission-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.mission-background {
+  width: 1200px;
+  height: 700px;
+  position: relative;
+}
+.mission-statement {
+  position: absolute;
+  background: black;
+  width: 1200px;
+  z-index: 1;
+  top: 300px;
+}
+
+/* Teas */
+
+.tea-header {
+  margin-top: 80px;
+}
+.tea-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 65px;
+}
+.tea-images {
+  width: 300px;
+  height: 200px;
+  margin: 20px 20px 0 20px;
+}
+
+/* Locations */
+
+.locations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: auto;
+}
+.locations-container img {
+  width: 1200px;
+  height: 500px;
+}
+.locations {
+  position: absolute;
+}
+.locations-header {
+  margin: 70px 0 15px 0;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 300px;
+  background: black;
+  opacity: 1;
+  margin: 0 20px;
+}
+
+/* Contact */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+
+/* Footer */
+
+.footer {
+  text-align: left;
+  margin: 50px 0 30px 20px;
+}
